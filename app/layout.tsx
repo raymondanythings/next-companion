@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
 import ThemeProvider from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
+import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,6 +21,7 @@ export default function RootLayout({
         <body className={cn("bg-secondary")}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             {children}
+            <Toaster />
           </ThemeProvider>
         </body>
       </html>

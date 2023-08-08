@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { Category } from "@prisma/client";
+import { Category } from "@prisma";
 import { useRouter, useSearchParams } from "next/navigation";
 import qs from "query-string";
 

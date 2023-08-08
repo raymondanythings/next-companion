@@ -1,8 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 [![wakatime](https://wakatime.com/badge/user/e1454ff1-4a10-4059-a7b1-630fa4afbd6a.svg)](https://wakatime.com/@e1454ff1-4a10-4059-a7b1-630fa4afbd6a)
 ## Getting Started
-
+yarn -v  # current: 3.5.1 not: 1.x.x
+yarn set version berry
+yarn dlx @yarnpkg/sdks vscode
 First, run the development server:
+
+yarn pnpify prisma generate
 
 ```bash
 npm run dev
