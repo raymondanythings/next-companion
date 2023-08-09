@@ -40,6 +40,8 @@ const Companions = ({ data }: CompanionProps) => {
                   alt="Companion"
                 />
               </div>
+              <p className="font-bold">{item.name}</p>
+              <p className="text-xs">{item.description}</p>
             </CardHeader>
             <CardFooter className="flex items-center justify-between text-xs text-muted-foreground">
               <p className="lowercase">@{item.userName}</p>
